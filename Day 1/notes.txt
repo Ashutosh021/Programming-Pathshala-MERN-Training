@@ -1,0 +1,132 @@
+***************        Day 1   ||    Date :- 02/04/24       ***************
+
+###
+starting tag = <tag>
+ending tag = </tag>
+element = <tag> Content </tag>
+
+###
+two important things
+1. head 
+2. body
+
+###
+semantic html -> tag name specify their meaning 
+also help browser to understand
+
+header 
+main 
+footer
+
+###
+heading 
+h1(bigger) - h6(lower)
+
+###
+comments <!-- comments -->
+
+###
+<p> paragraph </p>
+
+<title>
+
+<b> -> bold the text
+<i> -> italic
+<strong> -> help in reading
+<u> -> 
+
+
+###
+html entity  &entity_name
+
+&nbsp; example hello&nbspworld; ->ab ye dono break nhi hoge
+<  -> &lt;
+>  -> &gt;
+
+###
+<a> Anchor Tag </a>
+
+###
+self closing tag  -> no content tag are self closing
+<img />
+
+
+###
+inline -> takes width according to content  
+block ->  takes full width 
+
+div -> non semantic 
+
+
+###
+target property
+
+_blank -> new tab 
+_parent -> jis page k ander iframe use kr re usi page ki jagha wo iframe ka content aa jayega
+_self -> iframe ki jagha wo content aa jayega us iframe k ander hi
+_top -> iframe k ander iframe -> if link open then top wale iframe
+
+###
+section -> divide page in different section
+
+
+###
+id ->
+    uniqueliye identified the elements 
+    we can add id to anchor tag to reach on a position in fixed page
+
+
+###
+list 
+1. unordered list  -> ul , li
+2. ordered list     -> ol , li
+3. description list  -> dl , dt , dd
+
+
+###
+table  -> used to represent data in table
+
+tags in table -> table , caption(name to the table) , th , tr , td
+
+thead , tbody , tfoot -> these are semantic tags used by printer to print heading on all diffrent page
+
+colspan -> if(colspan="2") takes 2 column(table cell) width
+rowspan -> if(rowspan="2") takes 2 row(table cell) height
+
+
+###
+form tag
+
+input -> used to take input from user
+there are many type of input like -> text number email password file color etc
+
+to make any feild mantatory then use -> required (in input tag)
+
+###
+radio -> for single input
+checkbox ->  for multiple input
+textarea -> a space for long text
+
+###
+select -> option
+a menu with some option  , for show a default value then -->  selected
+
+
+###
+video -> src,controls
+
+for autoplay video -> autoplay , muted (because browser not allow to run video on volme becuz this can disturb the user exprience)
+
+
+###
+<a> can be used for
+<a href="mailto:emailhere">email</a> -> open mail on click on email
+<a href="tel:1312445">email</a>   -> open phone dialog box
+
+###
+sup -> for add power 
+sub -> for add base
+
+###
+del -> use kro for strike the element
+strike -> depreciated
