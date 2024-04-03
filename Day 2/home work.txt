@@ -1,0 +1,11 @@
+border 1px -> but shows/takes 0.875
+
+physical pixel defination
+
+ppi vs dpi
+
+height 
+
+width
+
+portfolio with css

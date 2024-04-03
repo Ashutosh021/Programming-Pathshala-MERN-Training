@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* width: border(l&r)+content+margin; */
+}
+
+#h3{
+    color: aqua;
+}
+
+.parent{
+    color: brown;
+}
+
+.parent p{
+    background-color: aqua;
+}
+
+.image{
+    width: 100%;
+    border: 1px solid red;
+    text-align: center;
+}
+.image img{
+width: 200px;
+}
+
+.box{
+    margin: 10px;
+    padding: 20px;
+    border: 1pcx solid red;
+    background-color: aqua;
+    width: 100px;
+}
+
+
+/* units */
+.units{
+    font-size: 30px;
+}
+.px{
+    font-size: 20px;
+    background-color: aqua;
+}
+.rem{
+    font-size: 2rem;
+    background-color: rgb(62, 170, 94);
+}
+.em{
+    font-size: 2em;
+    background-color: aqua;
+}
+.per{
+    font-size: 150%;
+    background-color: rgb(136, 182, 30);
+}
+
+.btn{
+    display: block;
+    margin: auto;
+    padding: 1em;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    width: 12em;
+    background-color: aqua;
+}
+.btn-sm{
+    font-size: 0.7em;
+}
+
+
+.parent-div{
+    background-color: aqua;
+    height:30vh;
+}
+.child-div{
+    background-color: brown;
+    width: 50vw;
+}
+
+.list{
+    background-color: tomato;
+    height: 200px;
+    padding: 30px;
+    overflow: scroll;
+}
+
+
+/* css selector */
+.parent1{
+    padding: 50px;
+
+    ol{
+        background-color: aqua;
+        li:nth-of-type(2){
+            background-color: red;
+        }
+    }
+    
+
+    ul:first-child{
+        background-color: brown;
+    }
+
+    ul:last-child{
+        background-color: rgb(9, 12, 221);
+        li:nth-child(3){
+            background-color: rgb(27, 221, 9);
+        }
+    }
+    
+} 
+
+
+.flexbox-parent{
+    border: 1px solid red;
+    background-color: aqua;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexbox-parent .child{
+    margin: 2px 2px;
+    flex-basis: 100px;
+    background-color: red;
+}
+
+
+.fparent{
+    background-color: aqua;
+    display: flex;
+    margin: 10px;
+    text-align: center;
+}
+.fchild div{
+    background-color: yellow;
+    width: 40px;
+    margin: 5px;
+}
+.fparent1{
+    justify-content: space-between;
+}
+.fparent2{
+    justify-content: space-around;
+}
+.fparent3{
+    justify-content: space-evenly;
+}
+.fparent4{
+    justify-content: flex-end;
+}
+.fparent5{
+    justify-content: flex-start;
+}
+.fparent6{
+    justify-content: center;
+}
