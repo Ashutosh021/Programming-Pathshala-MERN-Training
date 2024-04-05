@@ -1,0 +1,7 @@
+hoisting
+
+let const var ko hoisting ?
+
+    difference    paeseInt Number
+
+how many ways to written arrow funtion

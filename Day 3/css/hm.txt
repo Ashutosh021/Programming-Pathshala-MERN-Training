@@ -1,0 +1,11 @@
+grid area
+
+row span 
+col span
+
+
+position : inherit;
+
+visibily -> none   -> wah pe hai but hidden
+
+hidden -> none      -> waah se gayab
