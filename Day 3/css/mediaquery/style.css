@@ -1,0 +1,30 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.parent{
+    background-color: blueviolet;
+    color: white;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    padding: 10px;
+}
+
+h2{
+    transition: all ease-in 1s;
+}
+h2:hover{
+    color: aqua;
+}
+
+@media (max-width: 600px){
+    .parent{
+        background-color: red;
+    }
+    h2{
+        /* background-color: white; */
+    }
+}
