@@ -1,0 +1,14 @@
+news app modification
+    -> navbar 
+    -> footer
+    -> read more
+
+
+
+
+                 
+            async await 
+            map 
+            filter 
+            reduce
+            event loop
