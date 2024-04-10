@@ -1,0 +1,16 @@
+router
+ISP 
+Client
+server
+Ip Address
+Mac Address 
+
+
+
+
+
+
+
+lattincy
+response time
+processing
