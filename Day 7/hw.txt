@@ -1,0 +1,10 @@
+Router
+MAC
+IP
+Server
+Client
+HTTP
+HTTPs
+Internet
+ISP
+Parts
