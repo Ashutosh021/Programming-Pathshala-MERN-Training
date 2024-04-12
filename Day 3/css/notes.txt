@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 **********    Day 3 || 04/04/2024   *********
 
 ###
@@ -52,4 +53,60 @@
     -> pseudo-class is used to define a special state of an element
     
     like button:hover 
+=======
+**********    Day 3 || 04/04/2024   *********
+
+###
+    grid
+        it is a 2D representation of data
+
+        display:grid; 
+        grid-template-columns: 100px 200px;   -> fixed first column  100px second 200px
+        grid-template-columns: 1fr 1fr 1fr;   -> fr = fraction 
+        grid-template-rows: ;  -> row wise arrangement
+
+        column-gap:10px; -> gaps between columns
+        row-gap:10px;     -> gaps between rows
+
+      used to gave space column wise
+        grid-column-start     
+        grid-column-end  
+
+      used to gave space row wise
+        grid-row-start     
+        grid-row-end  
+
+
+        grid-template-columns:repeat(auto,1fr);
+        grid-template-columns:repeat(auto-fit);
+        grid-template-columns:repeat(auto-fit,minmax((50px,1fr)));
+
+
+###
+  positions
+    static  -> can't apply TBLR
+    relative -> apply TBRL      gap not fullfilled by any other element   ->position change from its initial position
+    absolute -> apply TBLR      gap fullfilled by any other element        ->position change from top of the document (html)
+    sticky -> apply TBLR        gap not fullfilled by any other element         ->stick with the scrren when scroll
+    fixed -> apply TBLR         gap fullfilled by any other element       ->fixed reference point body can't change (also fixed with scroll)
+
+
+###
+  media query
+    @media (max-width: 600px){     apply less then 600px
+      style here ... 
+    }
+
+
+### 
+  animation -> done in multiple steps
+  transition -> done in single steps
+  transform -> change the position 
+
+
+### psuedo class
+    -> pseudo-class is used to define a special state of an element
+    
+    like button:hover 
+>>>>>>> 59a0b268195fbb671256444ba536d09bf9300fc8
       ->hover os psuedo class   (visited,link,unvisited)

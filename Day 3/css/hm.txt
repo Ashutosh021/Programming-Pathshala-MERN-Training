@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 grid area
 
 row span 
@@ -8,4 +9,16 @@ position : inherit;
 
 visibily -> none   -> wah pe hai but hidden
 
+=======
+grid area
+
+row span 
+col span
+
+
+position : inherit;
+
+visibily -> none   -> wah pe hai but hidden
+
+>>>>>>> 59a0b268195fbb671256444ba536d09bf9300fc8
 hidden -> none      -> waah se gayab

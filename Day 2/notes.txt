@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *****************    Day - 2  || 03/04/2024   *********************
 
 
@@ -150,3 +151,157 @@
     server-side rendering -> all files (html,css,js) files compile at server and then  || serve exp-> youtube
     client side rendering ->  all files (html,css,js) files compile at clien and then  || serve exp-> amazon
     
+=======
+*****************    Day - 2  || 03/04/2024   *********************
+
+
+###
+    <html lang="en">
+
+###
+    UTF-8  -> represesnt only english characher
+    ASCII  -> represent all character from diferent countries
+
+###
+    text-decoration -> underline,dashed 
+    text-transform   -> convert text to uppercase lowercase capatalize 
+    font-size       -> by default 16px
+    color   
+
+###
+    inline     -> css in tag                    higest priority    using style attribute
+    internal    -> css inside html document     medium priority    using style tag in head
+    external    -> css in other file            lowest priority    using link tag in head
+
+###
+    id   -> unique to every element
+    class  -> to identify or access multiple elements
+
+
+###
+    .class1.class2 -> if not space then if an element has both class name then style
+    .class1 class2  -> if space then check class inside class then style
+
+###
+    box model 
+            -> have 4 parts 
+            content -> text , image etc
+            padding -> space from inside
+            border  -> border
+            margin  -> space from outside
+
+    margin:all;
+    margin:T B L R;
+    margin:TB LR;  
+    margin:T BL R;
+
+    or we can do 
+        margin-left:
+        margin-right:
+
+    these are same for padding , border
+
+###
+    vertically margin -> takes the higest margin because common margin are collapase 
+
+###
+    if box-sizing : border-box;
+        then width:60px; -> according to border (include border width)
+
+    if box-sizing : content-box;
+        then width:60px; -> according to content
+
+
+### 
+    to reset default css ehich is given by browser
+
+    *{
+        padding:0;
+        margin:0;
+        box-sizing=border-box;
+    }
+
+
+###
+    span tag   -> can't set width height
+
+
+###
+    text-align:center; used to align children
+
+###
+    css priorities           (css specificity article on w3schools)
+ 
+    inline > internal > external
+    id  >  class  >  tag 
+
+    !important -> set important to any css property to mark important this gets highest property
+
+
+### 
+    responsive units
+
+    px  -> fixed unit according to screen size depends on pixel
+    rem -> relative depends on the root element size     (example -> root(html)=16px (jo default) then child=2rem  tho 2*16 = 32px of child)
+            all property according to root (which is html = 16px)
+    em  -> relative depends on the parent element size        (example -> parent=10px then child=2rem  tho 2*10 = 20px of child)
+        only font size depends on the parent font but all other property depends on the own element size
+    %   -> immidiate parent k according adjust krta hai
+    vw ->  according to visible width of the screen   (jitna portion screen pe render ho raha hai width-wise)
+    vh ->  according to visible height of the screen    (jitna portion screen pe render ho raha hai height-wise)
+
+
+
+###
+    we can't nested paragraph inside paragraph
+
+###
+    min-height -> ttakes minimum but if content extends then height increase
+    overflow -> hidden , scroll
+
+###
+    css selector
+        first-child -> target first member
+        last-child -> target last child
+        nth-child  -> target n child   ( n=1,2,3,4,even,odd)
+
+
+        br span div etc are also considered as child
+            but
+        check when access fisrt or last child you should check that child name
+            you are accessing li and yopu found last child is span that's not run 
+
+        
+        .parent ul{}   -> descendant selector      seelct all ul tags
+        .parent > ul ->  child selector            (select direct child)
+        .parent + .parent2  ->  Adjacent Sibling   select immidiate after .parent  
+         div ~ p     ->   General Sibling           select all p after div 
+
+
+
+### 
+    flex-box
+
+    display:flex;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-evenly; 
+
+
+    flex-grow
+    flex-shrink
+    flex-basis
+
+    justify-content -> used to align items horizontally
+    align-item -> used to align items vertically
+
+    justify-content  -> center space-between space-around space-evenly flex-start
+    align-items  -> center space-between space-around space-evenly flex-start
+
+
+    order -> lowest value - highest priority    &  vice versa
+
+
+    server-side rendering -> all files (html,css,js) files compile at server and then  || serve exp-> youtube
+    client side rendering ->  all files (html,css,js) files compile at clien and then  || serve exp-> amazon
+>>>>>>> 59a0b268195fbb671256444ba536d09bf9300fc8

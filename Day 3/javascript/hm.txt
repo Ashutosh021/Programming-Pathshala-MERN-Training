@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 hoisting
 
 let const var ko hoisting ?
 
     difference    paeseInt Number
 
+=======
+hoisting
+
+let const var ko hoisting ?
+
+    difference    paeseInt Number
+
+>>>>>>> 59a0b268195fbb671256444ba536d09bf9300fc8
 how many ways to written arrow funtion

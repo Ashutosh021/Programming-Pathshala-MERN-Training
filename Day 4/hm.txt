@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 itratable and array diffrence
 
 
@@ -14,3 +15,21 @@ but with bootstrap or tailwind we gave script in head
 
 first class function
 
+=======
+itratable and array diffrence
+
+
+deep copy 
+and shallow copy
+
+
+what is node and element ?
+
+
+why we gave script tag in bootom 
+
+but with bootstrap or tailwind we gave script in head
+
+first class function
+
+>>>>>>> 59a0b268195fbb671256444ba536d09bf9300fc8

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
   margin:0;
   padding:0;
@@ -18,4 +19,26 @@ button:hover{
     cursor: pointer;
     background-color: aqua;
     scale: 1.5;
+=======
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,+50%);
+    border: none;
+    border-radius: 10px;
+    padding: 8px 16px;
+    transition: scale ease-in-out 1000ms;
+}
+button:hover{
+    cursor: pointer;
+    background-color: aqua;
+    scale: 1.5;
+>>>>>>> 59a0b268195fbb671256444ba536d09bf9300fc8
 }

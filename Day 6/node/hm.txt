@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Ip address
 Mac address
 Internet
@@ -9,3 +10,16 @@ Client
 http vs https
 
 
+=======
+Ip address
+Mac address
+Internet
+ISP
+Server
+Client
+
+
+http vs https
+
+
+>>>>>>> 59a0b268195fbb671256444ba536d09bf9300fc8

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ***********    Day - 5  || 08/04/2024    ************
 
 ###
@@ -85,4 +86,93 @@
             filter 
             reduce
             event loop
+=======
+***********    Day - 5  || 08/04/2024    ************
+
+###
+    callback
+
+
+    forEach
+
+        ->    arr.forEach(printPretty)
+
+        ->    arr.forEach(function printPretty(elem){
+                  console.log(elem)
+                })
+        
+        ->    arr.forEach(elem=>{
+                console.log(elem)
+                })
+
+        ->       let arr = [2,4,6,8,10];
+                    arr.forEach((arr,idx)=>{             (arrayElements,index)   (arrayElements,index,array)
+                    console.log(j);
+                 })
+
+###
+    map
+           const numbers = [65, 44, 12, 4];
+           const newArr = numbers.map( (num) => {
+                return num * 10;
+            })
+   
+            console.log(newArr)
+
+
+### 
+    Async Js
+
+
+            callstack -> first files goes here          (not wait for anyone)
+                if async file then they are goes to sidestack
+           
+            sidestack -> async files here..
+
+
+            Global Execution Context  ??
+
+
+    setTimeOut
+        console.log("first");
+        setTimeout(()=>{
+        console.log("Hii")
+        },3000)
+
+
+    addeventListerner
+        var btn = document.getElementById("btn")
+        btn.addEventListener("click",()=>{
+        console.log("Hello")
+        btn.innerText="Button Clicked"
+        })
+        console.log(btn)
+
+
+
+###
+    fetch api
+    
+    -> request 
+    -> json
+    -> print / pass to function 
+
+    
+    function renderUI(data){
+        console.log(data);
+        const root = document.getElementById("root");
+        const div = document.createElement("div");
+        div.innerText="Card";
+        root.appendChild(div);
+    };
+
+
+
+                
+            async await 
+            map 
+            filter 
+            reduce
+            event loop
+>>>>>>> 59a0b268195fbb671256444ba536d09bf9300fc8
             

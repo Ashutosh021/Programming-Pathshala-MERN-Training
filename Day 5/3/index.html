@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -83,4 +84,91 @@
     <script src="script.js"></script>
 </body>
 
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #ffc107;
+            text-align: center;
+            padding: 10px;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        #root {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 20px;
+        }
+
+        .newsCard {
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .newsCard:hover {
+            transform: translateY(-5px);
+        }
+
+        img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        h4 {
+            font-size: 14px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007bff;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #0056b3;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2> Daily News Provider</h2>
+    </header>
+    <main>
+        <div id="root">
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+>>>>>>> 59a0b268195fbb671256444ba536d09bf9300fc8
 </html>

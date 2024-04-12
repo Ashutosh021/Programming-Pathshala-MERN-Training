@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 **************************          Day - 6   ||  09/04/2024             **************************
 
 ###
@@ -54,4 +55,62 @@
 
             
 
+=======
+**************************          Day - 6   ||  09/04/2024             **************************
+
+###
+    latency
+    -> time take by a request go to server  
+     
+
+     round latency
+            -> time taken by a request to go to server and also return to client
+
+
+
+    processing time
+            -> time taken by the server to fullfill the client request
+
+
+    response time 
+            -> total time taken for the req + processing + res    for a client request
+
+
+
+    ###
+        callback queue and event loop are the part of browser 
+
+
+
+    ###
+        Node JS
+            -> node js is provide the runtime environment to the javascript program
+
+            Install Node LTS version
+
+
+
+        export     -> exports.default = variable_name / function / object
+        
+        import     -> using require("filename") store it in a variable 
+
+
+
+        npm install figlet 
+                -> A pacakage on npm site which represent text into some style
+                
+
+        async await 
+                ->
+                async function fetchAPI(){
+                var res = await fetch('https://dummyjson.com/products')
+                var data =await res.json()
+                console.log(data)
+                }
+
+            fetchAPI();
+
+            
+
+>>>>>>> 59a0b268195fbb671256444ba536d09bf9300fc8
  
