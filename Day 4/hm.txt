@@ -1,0 +1,16 @@
+itratable and array diffrence
+
+
+deep copy 
+and shallow copy
+
+
+what is node and element ?
+
+
+why we gave script tag in bootom 
+
+but with bootstrap or tailwind we gave script in head
+
+first class function
+

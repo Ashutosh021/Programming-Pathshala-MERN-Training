@@ -1,0 +1,75 @@
+**********************         Day - 7 || 10/04/2024        ****************************
+
+file system 
+    -> Promises API
+    -> Callback API
+    -> Synchronous API
+
+
+
+###
+    Buffer
+        it is a global scope constructor
+        
+        const b=new Buffer.from('abcxyz');
+        console.log(b);
+
+        output -> 
+        <Buffer 61 62 63 78 79 7a>
+
+        hexadecimal to decimal
+            61 in hexadecimal -> 97
+            80 in hexadecimal -> 7a
+
+        
+        -> why need buffer ?
+            provides a way for handling binary data
+            
+
+
+
+###
+        A URI (Uniform Resource Identifier) is a formal system for uniquely identifying resources and consists of
+        two types:
+            URLs (Uniform Resource Locator) and URNs (Uniform Resource Name).
+
+        A URL, also known as a web address, identifies a web resource as well as its location on a computer network and how to access it (e.g. http://www.library.pitt.edu).
+
+        A URN is a formal naming scheme that identifies a resource, but does not indicate its location or how to access it (e.g. ISBN, ISSN)
+
+        http:         //www.amazon.com     /product    ?price:20000  
+ 
+        protocol    origin                routepath          queries
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        npx-kill-port         -> agr server m reused code aa raha hai tho
+
+        in pacakage.json
+        npx-kill-port 1400 && nodemon script
+
+
+
+    paste code on console 
+            allow pasting
+
+
+
+write object fetching code into console
+    and click
+        then left-click   => copy object 
+            

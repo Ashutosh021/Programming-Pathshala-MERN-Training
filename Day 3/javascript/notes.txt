@@ -1,6 +1,6 @@
 ###
-    inside chrome -> there are a javascript engine known as V8 Engine
-    inside mozilla -> there are a javascript engine known as spider monkey
+    inside chrome -> there is a javascript engine known as V8 Engine
+    inside mozilla -> there is a javascript engine known as spider monkey
     Edge -> there are a javascript engine known as Chakra
 
 
@@ -14,7 +14,7 @@
     
     extension --> .js
 
-    sepration of concern -> alg alg file ko seprate rakhan
+    sepration of concern -> alg alg file ko seprate rakhana
 
 
 ###
@@ -25,8 +25,8 @@
 
 ###
     js is 
-        loosely typed ->  can add diffrent type
-        tightly typed  ->   not add different type only add similar datatype
+        loosely bound ->  can add diffrent type
+        tightly bound  ->   not add different type only add similar datatype
 
         dynamically typed -> datatype decide at runtime 
         statically typed ->  datatype decide at decalariation time
@@ -39,6 +39,7 @@
         Bigint
         Boolean 
         Null 
+        undefined
         array
         oject
         date
@@ -69,10 +70,10 @@
     ==          -> only check value
     ===         -> check datatype , value   (prefered in industry)
 
-    in case of spread operator (....a)
+    in case of spread operator (...a)
       then 
         ==         -> check value and refrence
-        ===        -> chack value datatype and refrence
+        ===        -> check value datatype and refrence
 
     same with 
         !=

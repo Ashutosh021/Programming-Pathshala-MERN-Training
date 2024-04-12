@@ -115,7 +115,7 @@ a menu with some option  , for show a default value then -->  selected
 ###
 video -> src,controls
 
-for autoplay video -> autoplay , muted (because browser not allow to run video on volme becuz this can disturb the user exprience)
+for autoplay video -> autoplay , muted (because browser not allow to run video on volume becuz this can disturb the user exprience)
 
 
 ###

@@ -128,7 +128,6 @@
 ### 
     flex-box
 
-    display:flex;
     display: flex;
     flex-direction: column; 
     justify-content: space-evenly; 
@@ -150,3 +149,4 @@
 
     server-side rendering -> all files (html,css,js) files compile at server and then  || serve exp-> youtube
     client side rendering ->  all files (html,css,js) files compile at clien and then  || serve exp-> amazon
+    
