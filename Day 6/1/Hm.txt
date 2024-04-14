@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 router
 ISP 
 Client
@@ -14,21 +14,4 @@ Mac Address
 
 lattincy
 response time
-=======
-router
-ISP 
-Client
-server
-Ip Address
-Mac Address 
-
-
-
-
-
-
-
-lattincy
-response time
->>>>>>> 59a0b268195fbb671256444ba536d09bf9300fc8
 processing
