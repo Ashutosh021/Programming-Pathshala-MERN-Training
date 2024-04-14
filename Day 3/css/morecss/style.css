@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 *{
   margin:0;
   padding:0;
@@ -57,64 +57,5 @@ h1{
     position: sticky;
     top: 10px;
     background-color: yellowgreen;
-=======
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-}
 
-body{
-    height: 150vh;
-    min-width: 100vw;
-    background-color: beige;
-    /* display: flex; */
-    /* justify-content: space-evenly; */
-    
-}
-
-.parent{
-    width: 100px;
-    height: 100px;
-    background-color: rgb(4, 199, 92);
-    position: absolute;
-    top: 10px;
-
-}
-.parent2{
-    width: 100px;
-    height: 100px;
-    background-color: rgb(38, 14, 173);
-    position: relative;
-    /* top: 20px; */
-
-}
-.parent3{
-    width: 100px;
-    height: 100px;
-    background-color: rgb(202, 89, 13);
-    position: sticky;
-    top: 2px;
-}
-.parent4{
-    width: 100px;
-    height: 100px;
-    background-color: rgb(241, 7, 7);
-    position: fixed;
-    right: 20px;
-    top:100px;
-
-}
-
-.b1,.b2,.b3,.b4{
-    border: 1px solid red;
-    padding: 20px;
-    text-align: center;
-}
-
-h1{
-    position: sticky;
-    top: 10px;
-    background-color: yellowgreen;
->>>>>>> 59a0b268195fbb671256444ba536d09bf9300fc8
 }
