@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 news app modification
     -> navbar 
     -> footer
@@ -12,19 +12,4 @@ news app modification
             map 
             filter 
             reduce
-=======
-news app modification
-    -> navbar 
-    -> footer
-    -> read more
-
-
-
-
-                 
-            async await 
-            map 
-            filter 
-            reduce
->>>>>>> 59a0b268195fbb671256444ba536d09bf9300fc8
             event loop
