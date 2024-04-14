@@ -1,16 +1,8 @@
-<<<<<<< HEAD
+
 why index.html
 
 need h5,h6 ?
 
 diference between Xhtml html
 
-=======
-why index.html
-
-need h5,h6 ?
-
-diference between Xhtml html
-
->>>>>>> 59a0b268195fbb671256444ba536d09bf9300fc8
 target -> property with nested iframe
