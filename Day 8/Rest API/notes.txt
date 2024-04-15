@@ -1,0 +1,51 @@
+***********************           Day - 8   ||   15/04/2024            *****************************
+
+
+Day 6 Project Update 
+
+node js url module 
+
+
+
+###
+    get k ander put deleted kuch bhi kr sakte hai 
+    but jo architecture hai usko follow krna hota hai
+
+###
+    As 
+
+        get -> read
+        post -> create
+        put -> update 
+        delete -> delete 
+
+### 
+    Status code 
+        200 ok
+        403 unable to access
+        404 page not found  
+
+###
+    API path 
+        name should be given  according to resources
+                       -> like /vehicle   not /getVehicle
+
+### 
+    Stateless 
+        as user create request then reponse should be same
+                -> state means that is not reliable to time  exp like which user is logged in / logged out 
+        
+
+
+
+##########################
+            REST API      ->       Representational State Transfer    Application Programming Interface
+
+
+
+    npm i express      -> Fast, unopinionated, minimalist web framework for Node.js.
+
+    In Browser -> by default request is GET 
+
+     
+        
