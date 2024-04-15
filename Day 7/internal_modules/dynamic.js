@@ -68,7 +68,3 @@ const server = http.createServer((req,res)=>{
 server.listen(2000,"localhost",()=>{
     console.log("working on http://localhost:2000")
 })
-
-
-
-
