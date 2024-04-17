@@ -1,0 +1,33 @@
+******************            Day - 9 || 16/04/2024        ******************* 
+
+<form action='/product'>                //go to page product 
+    <input type="text" name="ProductName">   // in searchbar ProductName
+    <button type="submit">Search</button>
+<form>
+
+
+
+
+
+
+###
+    if we use readFileSync without this takes 200 ms 
+
+    but if we use async await
+         then it gave this code to thread   
+            -> untill this process is complete then thread complete this task 
+
+
+###
+        req.id      not use in industry 
+                but we use 
+                    {id} = req           destructing
+
+
+
+###
+    res -> response send by the backend to the user 
+    req -> data get by the user  in backend
+
+    middleware -> middleware     a section where we check something and request wait here untill we next()
+    

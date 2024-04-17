@@ -1,0 +1,6 @@
+******************            Day - 9 || 16/04/2024        ******************* 
+
+<form action='/product'>                //go to page product 
+    <input type="text" name="ProductName">   // in searchbar ProductName
+    <button type="submit">Search</button>
+<form>
