@@ -1,0 +1,105 @@
+.gitignore
+npm init 
+npm i express
+npm i nodemon 
+
+3 -> folders 
+    - controllers
+    - models 
+    - routes 
+
+
+npm i nodemon -D        ----> for dev dependencies 
+
+###
+        app.js
+            const express = require("express")
+            const app=express();
+
+            app.listen(1400,()=>{
+            console.log("http://localhost:1400")
+            })
+
+
+###
+    inside routes 
+        -> file productsRoutes
+
+            const express = require("express");
+            const productRouter=express.Router();
+
+
+            // handler assigned
+            productRouter.route('/')
+            .get()
+
+
+    here we need productController
+
+
+
+###
+        inside controllers 
+            -> new file name productController
+
+                    const getAllProducts =(res,req)=>{
+                    res.json({
+                    status:'success',
+                    results:0,
+                 data:{
+                    products:[]
+                 }
+                })
+            }
+
+
+                module.exports={
+                    getAllProducts
+                }
+
+
+###   in productsRoutes
+                const express = require("express");
+                const productsController=require('../controllers/productsControllers.js')   //add 
+                const productRouter=express.Router();
+
+
+            // handler assigned
+
+                productRouter.route('/')
+                .get(productsController.getAllProducts);    //add 
+
+
+                module.exports=productRouter
+
+
+### 
+    in app.js
+        const express = require("express")
+        const productsRouter=require('./routes/productsRoutes.js')    //add 
+        const app=express();
+
+        app.use('./api/products',productsRouter)             //add 
+
+        app.listen(1400,()=>{
+            console.log("http://localhost:1400")
+        })
+
+
+
+
+
+
+
+
+
+
+
+####################
+    schema   ->      model        -> product         -> save
+
+
+
+####
+
+    mongodb automatically put db name into pural 
