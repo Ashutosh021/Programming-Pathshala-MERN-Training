@@ -4,3 +4,21 @@
     <input type="text" name="ProductName">   // in searchbar ProductName
     <button type="submit">Search</button>
 <form>
+
+
+#######
+
+const a={
+    "title":'hello',
+    "value":'world'
+}
+const b={
+    "title":'Welcome',
+    "value":'world2'
+}
+
+const c={...a,...b};          
+            ->   if key are same then a->key->value is replace by b->key->value    and store into to c  
+            ->   if key are not same then In c all diffrent key value are append to c      
+
+console.log(c)
