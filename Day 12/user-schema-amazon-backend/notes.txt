@@ -1,0 +1,58 @@
+### 
+
+    const q=req.query;
+    console.log(q)
+
+
+    http://localhost:1400/api/products?price=5500[$gte]=600
+
+
+    { 'price=5500': { '$gte': '600' } }
+
+
+
+###
+    const q=req.query;
+    console.log(q)
+    const data = await productModel.find(q);
+
+
+
+###
+    sort data in ascending order 
+    http://localhost:1400/api/products?sort=price
+
+###    
+    sort data in descending order 
+    http://localhost:1400/api/products?sort=-price
+
+
+
+
+#############
+        Pagination 
+            offset -> tells where to start 
+            limit  -> how much item we are want to show 
+
+
+            offset               limit 
+              0                     3
+              3                     3
+              6                     3
+
+
+                const skip=0;
+                const limit =5;
+
+                query=query.skip(skip).limit(limit)
+
+                skip=pageSize * (PageNo-1)
+
+                query=query.select('title')        giving title want        -> take only that thing is needed 
+                query=query.select('-title')        giving title want        -> take only that thing is needed
+
+
+####
+        how much documents are there in database
+            productModel.countDocuments();
+            collectionName.countDocuments();
