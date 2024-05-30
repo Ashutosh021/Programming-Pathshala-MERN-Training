@@ -1,0 +1,73 @@
+#navbar2 {
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    padding: 1%;
+    height: 40px;
+    width: 100%;
+    overflow-x: scroll;
+    position: relative;
+}
+
+#navbar2::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 12px;
+    background-color: #232f3e;
+}
+
+/* Hide scrollbar for WebKit (Chrome, Safari) */
+#navbar2::-webkit-scrollbar {
+    display: none;
+}
+
+.menuIcon {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.menuIcon i {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.menuItems {
+    display: flex;
+    align-items: center;
+}
+
+.menuItems p {
+    margin-left: 15px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.menuItems p:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    #navbar2 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .menuIcon {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .menuItems {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menuItems p {
+        margin: 5px;
+    }
+}
