@@ -4,6 +4,7 @@ import Hnavbar from './pages/Hnavbar'
 import Home from './pages/Home'
 import Products from './pages/Products'
 import SearchPage from './pages/SearchPage'
+import Footer from './pages/Footer'
 import { BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 
 
@@ -18,6 +19,7 @@ const App = () => {
         <Route path='/products' element=<Products/>>Products</Route>
         <Route path='/search' element=<SearchPage/>>Search</Route>
       </Routes>
+      <Footer />
     </Router>
   )
 }
