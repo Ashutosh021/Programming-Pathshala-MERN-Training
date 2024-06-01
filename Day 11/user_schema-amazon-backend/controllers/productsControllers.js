@@ -17,7 +17,7 @@ const addProduct = async (req, res) => {
     const data = await productModel.create(req.body);
     console.log(data);
     res.json({
-      status: "flase",
+      status: "false",
       product: data,
     });
   } catch (err) {
